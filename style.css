@@ -1,0 +1,46 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+img{
+
+    height: 600px;
+    width: 600px;
+    margin: 20px 20px;
+    align-items: center;
+}
+.carrosel{
+    height: 500px;
+    width: 600px;
+    overflow: hidden;
+    margin: 50px auto;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.7);
+    
+}
+.carrosel ul{
+   
+    display:flex;
+    list-style: none;
+    width: 1000px;
+    height: 250px;
+    
+}
+.carrosel li{
+    position: relative;
+    animation: slide 15s infinite ease-out;
+}
+
+@keyframes slide {
+ 0% { left: 0px;}
+ 20%{ left: 0px;}
+
+ 30% { left: -700px;}
+ 50%{left: -700px;}
+
+ 60% { left: -1340px;}
+ 90%{left: -1340px;}
+
+ 100%{left: 0px;}
+
+
+}
